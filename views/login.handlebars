@@ -1,17 +1,55 @@
-<h2>Login</h2>
 
-<form class="form login-form">
+<div class="row">
+
+<h2>Login</h2>
+ {{!-- ENTRY FOR USER DATA  --}} 
+   <form class="form login-form">
   <div class="form-group">
     <label for="email-login">email:</label>
     <input class="form-input" type="text" id="email-login" />
   </div>
+  <br>
   <div class="form-group">
     <label for="password-login">password:</label>
     <input class="form-input" type="password" id="password-login" />
   </div>
   <div class="form-group">
-    <button class="btn btn-primary" type="submit">login</button>
+    <button href = "/home" class="btn btn-primary" type="submit">login</button>
+  </div>
+
+</div>
+<br>
+<br>
+<br>
+</form>
+<h1>Create a New Profile</h1>
+<div class="row">
+{{!-- create new login  --}}
+ <form class="signup-login-form">
+  <div class="form-group">
+    <label for="email-login">First Name:</label>
+    <input class="form-input" type="text" id="fname-signup" />
+  </div>
+  <br>
+   <div class="form-group">
+    <label for="email-login"> Last Name:</label>
+    <input class="form-input" type="text" id="lname-signup" />
+  </div>
+  <br>
+   <div class="form-group">
+    <label for="email-login">email:</label>
+    <input class="form-input" type="text" id="email" />
+  </div>
+  <br>
+  <div class="form-group">
+    <label for="password-login">password:</label>
+    <input class="form-input" type="password" id="password-signup" />
+  </div>
+  <div class="form-group">
+    <button href="/home" class="btn btn-primary" type="submit">Create New User</button>
   </div>
 </form>
+</div>
 
 <script src="/js/login.js"></script>
+

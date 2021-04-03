@@ -1,13 +1,13 @@
 const router = require('express').Router();
 const { Blog } = require('../../models');
-const withAuth = require('../../utils/auth');
+
 
 // This route grabs blog post 
 router.get('/', async (req, res) => {
   try {
-    const userData = await User.findAll();
+    const userData = await Blog.findAll();
     res.status(200).json(userData);
-    res.render(userData);
+   
 
   } catch (err) {
     res.status(500).json(err);

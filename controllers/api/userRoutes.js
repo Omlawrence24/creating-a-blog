@@ -3,7 +3,7 @@ const { User } = require('../../models');
 
 router.post('/login', async (req, res) => {
   try {
-    // TODO: Add a comment describing the functionality of this expression
+
     const userData = await User.findOne({ where: { email: req.body.email } });
 
     if (!userData) {
@@ -13,7 +13,6 @@ router.post('/login', async (req, res) => {
       return;
     }
 
-    // TODO: Add a comment describing the functionality of this expression
     const validPassword = await userData.checkPassword(req.body.password);
 
     if (!validPassword) {
@@ -27,7 +26,7 @@ router.post('/login', async (req, res) => {
     req.session.save(() => {
       req.session.user_id = userData.id;
       req.session.logged_in = true;
-      
+
       res.json({ user: userData, message: 'You are now logged in!' });
     });
 
@@ -47,4 +46,35 @@ router.post('/logout', (req, res) => {
   }
 });
 
+
+
+router.post('/login', (req, res) => {
+
+  
+  const first_Name = document.querySelector('#fname-signup').value.trim();
+  const last_Name = document.querySelector('#lname-signup').value.trim();
+  const email = document.querySelector('#email-signup').value.trim();
+  const password = document.querySelector('#password-signup').value.trim();
+  try {
+  User.insert({
+      first_Name: req.body.first_Name,
+      last_Name: req.body.last_Name,
+      email: req.body.email,
+      password: req.body.password
+
+    }).then(data => {
+      res.status(200)
+      console.log(data)
+    }
+    )
+  } catch (err) {
+    res.status(400)
+  }
+
+})
+
 module.exports = router;
+
+
+
+// 
