@@ -23,7 +23,7 @@
   MIT
 
   ## Contributing
-  node modules, package.json 
+  node modules, package.json, Bootstrap
 
   ## Developer Info
   Obedia Lawrence 
