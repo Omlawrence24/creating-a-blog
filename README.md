@@ -19,7 +19,7 @@
   
   ## Usage
  This sites agenda is to allow the user to input info daily and have it stored in a local database to be 
- retrieved. This siteb acts as a active self blog for info and daily input
+ retrieved. This site acts as an active self blog for info and daily input for the users writing realease.
   ## License
   MIT
 
