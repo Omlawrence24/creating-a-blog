@@ -5,7 +5,7 @@
   ### MIT
   
   ## Description
-  This Site allows 
+  This Site allows users to create a Self owned Blog site
   
   ## Table of Contents
  * [Installation](#installation)
