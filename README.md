@@ -5,7 +5,7 @@
   ### MIT
   
   ## Description
-  This Site allows the User to create there very own custom read me in per project.
+  This Site allows 
   
   ## Table of Contents
  * [Installation](#installation)
