@@ -1,7 +1,7 @@
 
 
 
-  # Creating a Custom Read Me
+  # Creating a Blog 
   ### MIT
   
   ## Description
