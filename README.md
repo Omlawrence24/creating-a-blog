@@ -28,7 +28,7 @@
   node modules, package.json, Bootstrap
 
   ## Developer Info
-  Incomplete Project open to updates and operational changes...
+  Incomplete Project open to updates and operational changes..
   
   Obedia Lawrence 
   
