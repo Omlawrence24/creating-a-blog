@@ -6,7 +6,7 @@
   
   ## Description
   This Site's Goal is to allows users to create a Self Owned Blog site.
-  
+   (Incomplete Project open to framework, updates and operational changes)
   ## Table of Contents
  * [Installation](#installation)
  * [Usage](#usage)
