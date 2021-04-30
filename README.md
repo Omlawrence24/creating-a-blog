@@ -2,7 +2,7 @@
 
 
   # Creating a Blog 
-  ### MIT
+  ### MIT...
   
   ## Description
   This Site's Goal is to allows users to create a Self Owned Blog site.
