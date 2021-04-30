@@ -18,7 +18,7 @@
   You will need to install NPM, Inquirer, Express, Node.js
   
   ## Usage
- This 
+ This sites agenda is to allow the user to input info daily and have it stored in a local database to be 
   ## License
   MIT
 
