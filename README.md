@@ -18,8 +18,7 @@
   You will need to install NPM, Inquirer, Express, Node.js
   
   ## Usage
- This is used to create a Read Me this gives fellow developers and employers an inside look into the project. The key is to try to
- give them the best insight possible in creating this site so that if others would like to add to or duplicate they can easily do so. 
+ 
   ## License
   MIT
 
