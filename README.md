@@ -5,7 +5,7 @@
   ### MIT
   
   ## Description
-  This Site allows users to create a Self owned Blog site
+  This Site's Goal is to allows users to create a Self Owned Blog site.
   
   ## Table of Contents
  * [Installation](#installation)
